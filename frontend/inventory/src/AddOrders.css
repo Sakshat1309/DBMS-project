@@ -1,0 +1,59 @@
+.details{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(10, 10, 66);
+    height: 100vh;
+    width: 50vw;
+    color: rgb(13, 14, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 600;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+form{
+    width: 25rem;
+}
+label{
+    color: rgb(14, 15, 15);
+    font-size: large;
+}
+.ShowFinalOrder{
+    color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    border:2px solid rgb(248, 243, 243);
+    background-color: rgb(242, 243, 243);
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 800 !important;
+}
+p{
+    padding : 10px;
+}
+.buttonTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.form-group{
+    font-size: 30px;
+
+}
+input{
+    font-size: 20px !important;
+}

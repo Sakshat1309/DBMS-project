@@ -1,0 +1,29 @@
+img{
+   height: 200px;
+   width: auto;
+}
+button.btn.btn-success{
+    margin-right: 15px;
+    
+}
+button.btn.btn-danger{
+    margin-top: 5px;
+}
+.card{
+ padding: 10px;
+ margin: 10px;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+.left{
+    background: rgb(10, 10, 66);
+}
+.list-group-item{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

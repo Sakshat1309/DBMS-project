@@ -1,0 +1,104 @@
+.details{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(10, 10, 66);
+    height: 100vh;
+    width: 50vw;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+form{
+    width: 25rem;
+}
+label{
+    color: aliceblue;
+    font-size: large;
+}
+.ShowFinalOrder{
+    color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    border:2px solid rgb(248, 243, 243);
+    background-color: rgb(242, 243, 243);
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 800 !important;
+}
+p{
+    padding : 10px;
+}
+.buttonTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.form-group{
+    font-size: 30px;
+
+}
+input{
+    font-size: 20px !important;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #4e4eff;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #f1f1f1;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
